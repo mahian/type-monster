@@ -63,7 +63,7 @@ const validate = (key) => {
 
 // FINISHED TYPING
 const gameOver = () => {
-  document.removeEventListener("keydown", typeController);
+  document.removeEventListener("keydown", typeController());
   // the current time is the finish time
   // so total time taken is current time - start time
   const finishTime = new Date().getTime();
