@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .main-title{
+            color: white;
+            text-align: center;
+            margin: 20px 0;
+            position: relative;
+            padding-bottom: 20px;
+        }
+        .main-title::after{
+            content: '';
+            background-color: rgb(121, 121, 121);
+            height: 1px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    this is here..
+    <div class="box-container">
+        <h1 class="main-title">Blog Section</h1>
+        
+    </div>
 </body>
 </html>
